@@ -1,4 +1,18 @@
 import streamlit as st
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score
+from lightgbm import LGBMRegressor
+from catboost import CatBoostRegressor
+from xgboost.sklearn import XGBRegressor
+from sklearn.linear_model import SGDRegressor
+from sklearn.kernel_ridge import KernelRidge
+from sklearn.linear_model import ElasticNet
+from sklearn.linear_model import BayesianRidge
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.svm import SVR
+import pandas as pd
 import pickle
 import numpy as np
 
