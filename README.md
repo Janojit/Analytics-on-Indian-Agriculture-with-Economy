@@ -1,11 +1,11 @@
-Project: Analytics on Indian Agriculture with Economy
+# Analytics on Indian Agriculture with Economy
 
-Data Taken From:
+## Data Taken From:
 - Dataset - 1: http://data.icrisat.org/dld/src/crops.html
 - Dataset - 2: http://surl.li/hqvso
 - Dataset - 3: http://surl.li/hqvsq
 
-Objective:
+## Objective:
 - Analyse Agricultural Data and fetch maximum insights from it
 - Make a comparision between Agriculture and Economy
 - Create Predictive Models
@@ -13,7 +13,7 @@ Objective:
 - Problem Definition
 - Make an analytical project on Agricultural Industry in India by analyzing State-wise agriculture and how it is effecting their Economy and try to fetch unique insights from it. Based on the parameters(Crop Production,Rainfall,GDP etc) try to make a predictive model out of it.
 
-Approach/Methods:
+## Approach/Methods:
 - First we need to import the datasets
 - Clean and Preprocess datasets to make it mergeable
 - Merge the datasets based on common attributes and entries
@@ -22,7 +22,7 @@ Approach/Methods:
 - Create Regresssion Model and Store it into Pickle file
 - Deploy Regression Models using Streamlit
 
-Results:
+## Results:
 - Created an API with Two sections Predict and Explore
 - In the Predict section We can Predict Desirable Attributes
 - The Explore section consists with Exploratiory Data Analysis
@@ -34,6 +34,6 @@ Results:
 - Learned about different Regression models
 - Learned about Streamlit
 
-Web Application:
+## Web Application:
 - My Web Application Link: https://janojit-analytics-on-indian-agriculture-with-economy-app-vxgonv.streamlit.app/
 - My Deployment Procedure is available in this GitHub Repositories: https://github.com/Janojit/Analytics-on-Indian-Agriculture-with-Economy
